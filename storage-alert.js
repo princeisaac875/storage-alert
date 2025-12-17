@@ -14,7 +14,7 @@
 
         .storage-alert {
             position: relative;
-            padding: 14px 18px;
+            padding: 20px;
             border: 1px solid #ffeaa7;
             border-radius: 4px;
             width: 100%;
