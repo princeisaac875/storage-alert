@@ -14,54 +14,55 @@
 
         .storage-alert {
             position: relative;
-            padding: 16px 20px;
-            border: 1px solid transparent;
-            border-radius: 6px;
-            max-width: 800px;
-            margin: 0 auto;
+            padding: 14px 18px;
+            border: 1px solid #ffeaa7;
+            border-radius: 4px;
             width: 100%;
             color: #856404;
             background-color: #fff3cd;
-            border-color: #ffeaa7;
         }
 
         .storage-alert-icon {
             display: inline-block;
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             margin-right: 8px;
             vertical-align: middle;
+            flex-shrink: 0;
         }
 
         .storage-alert-content {
             display: inline-block;
             vertical-align: middle;
-            width: calc(100% - 30px);
+            width: calc(100% - 26px);
         }
 
         .storage-alert-title {
             font-weight: 600;
-            font-size: 16px;
-            margin-bottom: 8px;
+            font-size: 15px;
+            margin-bottom: 6px;
             display: flex;
             align-items: center;
+            line-height: 1.3;
         }
 
         .storage-alert-message {
-            font-size: 14px;
-            line-height: 1.6;
-            margin-bottom: 12px;
+            font-size: 13px;
+            line-height: 1.5;
+            margin-bottom: 8px;
         }
 
         .storage-alert-action {
-            font-size: 14px;
-            font-weight: 500;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.5;
         }
 
         .storage-alert-action a {
             color: #856404;
             text-decoration: underline;
             cursor: pointer;
+            font-weight: 500;
         }
 
         .storage-alert-action a:hover {
@@ -71,41 +72,22 @@
         @media (max-width: 768px) {
             .storage-alert {
                 padding: 12px 16px;
-                border-radius: 4px;
-            }
-
-            .storage-alert-title {
-                font-size: 15px;
-            }
-
-            .storage-alert-message {
-                font-size: 13px;
-            }
-
-            .storage-alert-action {
-                font-size: 13px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .storage-alert {
-                padding: 10px 12px;
             }
 
             .storage-alert-icon {
-                width: 18px;
-                height: 18px;
-                margin-right: 6px;
+                width: 17px;
+                height: 17px;
+                margin-right: 7px;
             }
 
             .storage-alert-title {
                 font-size: 14px;
-                margin-bottom: 6px;
+                margin-bottom: 5px;
             }
 
             .storage-alert-message {
                 font-size: 12px;
-                margin-bottom: 10px;
+                margin-bottom: 7px;
             }
 
             .storage-alert-action {
@@ -113,7 +95,38 @@
             }
 
             .storage-alert-content {
-                width: calc(100% - 26px);
+                width: calc(100% - 24px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .storage-alert {
+                padding: 10px 14px;
+            }
+
+            .storage-alert-icon {
+                width: 16px;
+                height: 16px;
+                margin-right: 6px;
+            }
+
+            .storage-alert-title {
+                font-size: 13px;
+                margin-bottom: 4px;
+            }
+
+            .storage-alert-message {
+                font-size: 11px;
+                margin-bottom: 6px;
+                line-height: 1.4;
+            }
+
+            .storage-alert-action {
+                font-size: 11px;
+            }
+
+            .storage-alert-content {
+                width: calc(100% - 22px);
             }
         }
     `;
