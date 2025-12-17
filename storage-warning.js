@@ -143,7 +143,7 @@
             </div>
             <div class="storage-alert-content">
                 <div class="storage-alert-message" style="margin-bottom:10px;">
-                    You have used <strong>95% of your 100 GB</strong> storage space. Issues such as data loss, server restart, application crash, or scheduled tasks not running may occur. To resolve this issue, please consider <a href="#upgrade">upgrading your plan</a>. Starting at $135 per year, you'll receive 200 GB of storage space.
+                    You have used <strong>95% of your 100 GB</strong> storage space. Issues such as data loss, server restart, application crash, or scheduled tasks not running may occur. To resolve this issue, please consider upgrading your plan. Plan starts at $135 per year and include 200GB of storagw space.
                 </div>
             </div>
         </div>
