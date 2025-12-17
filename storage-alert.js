@@ -10,17 +10,15 @@
 
         #storage {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            padding: 20px;
         }
 
         .storage-alert {
             position: relative;
             padding: 16px 20px;
-            margin-bottom: 16px;
             border: 1px solid transparent;
             border-radius: 6px;
             max-width: 800px;
-            margin: 20px auto;
+            margin: 0 auto;
             width: 100%;
             color: #856404;
             background-color: #fff3cd;
@@ -71,13 +69,8 @@
         }
 
         @media (max-width: 768px) {
-            #storage {
-                padding: 10px;
-            }
-
             .storage-alert {
                 padding: 12px 16px;
-                margin: 10px auto;
                 border-radius: 4px;
             }
 
@@ -95,10 +88,6 @@
         }
 
         @media (max-width: 480px) {
-            #storage {
-                padding: 8px;
-            }
-
             .storage-alert {
                 padding: 10px 12px;
             }
