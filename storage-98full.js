@@ -141,7 +141,7 @@
             </div>
             <div class="storage-alert-content">
                 <div class="storage-alert-message">
-                    You have used <strong>98% of your 100 GB</strong> storage space. Issues such as data loss, server restart, application crash, or scheduled tasks not running may occur. To resolve this issue, please consider upgrading your plan. Plan starts at $135 per year and include 200GB of storage space.
+                    You have used <strong>100% of your 175 GB</strong> storage space. Issues such as data loss, server restart, application crash, or scheduled tasks not running may occur. To resolve this issue, please consider upgrading your plan. Plan starts at $60 per year and include 250GB of storage space.
                 </div>
             </div>
         </div>
